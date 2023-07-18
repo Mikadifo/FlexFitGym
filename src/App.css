@@ -1,0 +1,124 @@
+.navbar {
+  display: flex;
+  place-content: space-between;
+  align-items: center;
+  margin: 8px 64px;
+}
+
+.navbar img {
+  height: 52px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav-list a {
+  color: white;
+  opacity: 95%;
+  font-size: 18px;
+  font-family: Lato-Regular;
+}
+
+.join-button {
+  font-family: Lato-Bold;
+  background-color: #f2dd4a;
+  color: #0f0f0f;
+  padding: 12px 36px;
+  font-size: 18px;
+  border-radius: 32px;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 32px 64px;
+}
+
+.body div {
+  border: 1px solid red;
+  border-radius: 24px;
+  display: block;
+  padding: 48px;
+}
+
+.hero {
+  width: calc(60% - 16px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.top-hero {
+  font-family: Lato-Regular;
+  font-size: 24px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  font-family: Rowdies;
+  font-size: 88px;
+  color: #0f0f0f;
+  margin-bottom: 96px;
+}
+
+.bottom-hero {
+  display: flex;
+  align-items: center;
+  place-content: space-between;
+}
+
+.bottom-hero img {
+  height: 48px;
+  margin-right: 16px;
+}
+
+.bottom-hero span {
+  display: flex;
+  font-family: Lato-Regular;
+  font-size: 20px;
+  max-width: 31%;
+}
+
+.bottom-hero a {
+  font-family: Lato-Regular;
+  font-size: 24px;
+  padding: 16px 48px;
+  margin: 16px 0;
+  background-color: #0f0f0f;
+  color: rgba(255, 255, 255, 0.95);
+  border-radius: 32px;
+}
+
+.image {
+  width: 40%;
+  background-image: url("./assets/gymBro.jpeg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+}
+
+.image p {
+  color: white;
+  opacity: 95%;
+  font-size: 24px;
+  font-family: Lato-Bold;
+  padding: 12px 36px;
+  background-color: rgba(15, 15, 15, 0.5);
+  border-radius: 32px;
+  position: absolute;
+  bottom: 48px;
+}
+
+.contact {
+  width: calc(60% - 16px);
+}
+
+.reviews {
+  width: 40%;
+}
