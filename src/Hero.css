@@ -38,11 +38,41 @@
 }
 
 .bottom-hero a {
-  font-family: Lato-Regular;
+  font-family: Lato-Bold;
   font-size: 24px;
   padding: 16px 48px;
   margin: 16px 0;
   background-color: #0f0f0f;
   color: rgba(255, 255, 255, 0.95);
   border-radius: 32px;
+  border: 2px solid #0f0f0f;
+  position: relative;
+  z-index: 2;
+}
+
+.bottom-hero a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 100%;
+  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  border-radius: 32px;
+  z-index: -1;
+}
+
+.bottom-hero a:hover {
+  color: #0f0f0f;
+}
+
+.bottom-hero a:hover::after {
+  border: 2px solid #0f0f0f;
+  width: 100%;
+  background-color: #f2dd4a;
+}
+
+.bottom-hero a:active {
+  opacity: 75%;
 }

@@ -36,8 +36,18 @@
 
 .address {
   width: 47%;
-  color: #0f0f0f;
   display: flex;
+  color: #0f0f0f;
+  line-height: 28px;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.address:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: 0.3s;
+  transform: scale(105%);
 }
 
 .contact-top img {
