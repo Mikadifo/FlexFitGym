@@ -1,0 +1,48 @@
+.hero {
+  width: calc(60% - 16px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.top-hero {
+  font-family: Lato-Regular;
+  font-size: 24px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  font-family: Rowdies;
+  font-size: 88px;
+  color: #0f0f0f;
+  margin-bottom: 96px;
+}
+
+.bottom-hero {
+  display: flex;
+  align-items: center;
+  place-content: space-between;
+}
+
+.bottom-hero img {
+  height: 48px;
+  margin-right: 16px;
+}
+
+.bottom-hero span {
+  display: flex;
+  font-family: Lato-Regular;
+  font-size: 20px;
+  max-width: 31%;
+}
+
+.bottom-hero a {
+  font-family: Lato-Regular;
+  font-size: 24px;
+  padding: 16px 48px;
+  margin: 16px 0;
+  background-color: #0f0f0f;
+  color: rgba(255, 255, 255, 0.95);
+  border-radius: 32px;
+}

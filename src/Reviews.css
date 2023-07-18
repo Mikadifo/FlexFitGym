@@ -1,0 +1,53 @@
+.reviews {
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.reviews h3 {
+  font-family: Rowdies;
+  font-size: 48px;
+  color: #0f0f0f;
+}
+
+.top-reviews {
+  display: flex;
+  place-content: space-between;
+  align-items: center;
+}
+
+.top-reviews img {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+}
+
+.stars {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 4px;
+}
+
+.stars img {
+  width: 24px;
+  height: 24px;
+}
+
+.score {
+  display: flex;
+  font-family: Lato-Regular;
+  font-size: 16px;
+  color: #0f0f0f;
+  gap: 16px;
+  align-items: center;
+}
+
+.reviews p {
+  margin-top: 32px;
+  font-family: Lato-Regular;
+  font-size: 20px;
+  line-height: 28px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

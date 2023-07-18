@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  place-content: space-between;
+  align-items: center;
+  margin: 8px 64px;
+}
+
+.navbar img {
+  height: 52px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav-list a {
+  color: white;
+  opacity: 95%;
+  font-size: 18px;
+  font-family: Lato-Regular;
+}
+
+.join-button {
+  font-family: Lato-Bold;
+  background-color: #f2dd4a;
+  color: #0f0f0f;
+  padding: 12px 36px;
+  font-size: 18px;
+  border-radius: 32px;
+}
